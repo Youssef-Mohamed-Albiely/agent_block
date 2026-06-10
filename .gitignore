@@ -1,0 +1,65 @@
+# =====================
+# SECRETS — never commit
+# =====================
+.env
+*.env
+.env.local
+.env.production
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# =====================
+# IDEs & Editors
+# =====================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================
+# Logs & temp files
+# =====================
+*.log
+*.tmp
+*.swp
+*.swo
+
+# =====================
+# Jupyter (if used)
+# =====================
+.ipynb_checkpoints/
+*.ipynb
+
+# =====================
+# LangSmith / LangChain cache
+# =====================
+.langchain.db
+langchain_cache/
