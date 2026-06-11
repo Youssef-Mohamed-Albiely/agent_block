@@ -3,7 +3,7 @@ from langchain.agents import create_tool_calling_agent, AgentExecutor
 from langchain_community.agent_toolkits.load_tools import load_tools
 from langchain_core.runnables import ConfigurableFieldSpec
 from langchain.schema.output_parser import StrOutputParser
-from agent.summon_llm import llm , generative_llm
+from agent.summon_llm import llm 
 from langchain_openai import ChatOpenAI
 from agent.tools import all_tools
 from agent.memory import memory
