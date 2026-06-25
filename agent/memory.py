@@ -10,7 +10,7 @@ from langchain_core.prompts import (
     HumanMessagePromptTemplate as hmpt,
     ChatPromptTemplate as cpt,
     )
-from agent.summon_llm import llm , generative_llm
+from agent.summon_llm import llm 
 
 
 class memory (BaseChatMessageHistory , BaseModel):
